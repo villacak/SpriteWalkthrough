@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3BE55D1D073E38003EC711 /* SpriteKitSimpleGameResources in Resources */ = {isa = PBXBuildFile; fileRef = 3D3BE55C1D073E38003EC711 /* SpriteKitSimpleGameResources */; };
+		3D3BE55F1D077034003EC711 /* GameOVerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3BE55E1D077034003EC711 /* GameOVerScene.swift */; };
 		3D8F3D0C1D07385A00C5F962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F3D0B1D07385A00C5F962 /* AppDelegate.swift */; };
-		3D8F3D0E1D07385A00C5F962 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3D8F3D0D1D07385A00C5F962 /* GameScene.sks */; };
 		3D8F3D101D07385A00C5F962 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F3D0F1D07385A00C5F962 /* GameScene.swift */; };
 		3D8F3D121D07385A00C5F962 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8F3D111D07385A00C5F962 /* GameViewController.swift */; };
 		3D8F3D151D07385A00C5F962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8F3D131D07385A00C5F962 /* Main.storyboard */; };
@@ -36,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D3BE55C1D073E38003EC711 /* SpriteKitSimpleGameResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SpriteKitSimpleGameResources; sourceTree = "<group>"; };
+		3D3BE55E1D077034003EC711 /* GameOVerScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOVerScene.swift; sourceTree = "<group>"; };
 		3D8F3D081D07385A00C5F962 /* SpriteWalkthrough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteWalkthrough.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D8F3D0B1D07385A00C5F962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D8F3D0D1D07385A00C5F962 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		3D8F3D0F1D07385A00C5F962 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3D8F3D111D07385A00C5F962 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3D8F3D141D07385A00C5F962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -78,10 +80,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3BE55B1D073E12003EC711 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D3BE55C1D073E38003EC711 /* SpriteKitSimpleGameResources */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		3D8F3CFF1D07385A00C5F962 = {
 			isa = PBXGroup;
 			children = (
 				3D8F3D0A1D07385A00C5F962 /* SpriteWalkthrough */,
+				3D3BE55B1D073E12003EC711 /* resources */,
 				3D8F3D231D07385A00C5F962 /* SpriteWalkthroughTests */,
 				3D8F3D2E1D07385A00C5F962 /* SpriteWalkthroughUITests */,
 				3D8F3D091D07385A00C5F962 /* Products */,
@@ -102,13 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				3D8F3D0B1D07385A00C5F962 /* AppDelegate.swift */,
-				3D8F3D0D1D07385A00C5F962 /* GameScene.sks */,
 				3D8F3D0F1D07385A00C5F962 /* GameScene.swift */,
 				3D8F3D111D07385A00C5F962 /* GameViewController.swift */,
 				3D8F3D131D07385A00C5F962 /* Main.storyboard */,
 				3D8F3D161D07385A00C5F962 /* Assets.xcassets */,
 				3D8F3D181D07385A00C5F962 /* LaunchScreen.storyboard */,
 				3D8F3D1B1D07385A00C5F962 /* Info.plist */,
+				3D3BE55E1D077034003EC711 /* GameOVerScene.swift */,
 			);
 			path = SpriteWalkthrough;
 			sourceTree = "<group>";
@@ -235,9 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8F3D0E1D07385A00C5F962 /* GameScene.sks in Resources */,
 				3D8F3D1A1D07385A00C5F962 /* LaunchScreen.storyboard in Resources */,
 				3D8F3D171D07385A00C5F962 /* Assets.xcassets in Resources */,
+				3D3BE55D1D073E38003EC711 /* SpriteKitSimpleGameResources in Resources */,
 				3D8F3D151D07385A00C5F962 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +276,7 @@
 			files = (
 				3D8F3D101D07385A00C5F962 /* GameScene.swift in Sources */,
 				3D8F3D121D07385A00C5F962 /* GameViewController.swift in Sources */,
+				3D3BE55F1D077034003EC711 /* GameOVerScene.swift in Sources */,
 				3D8F3D0C1D07385A00C5F962 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,10 +421,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpriteWalkthrough/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sprite.SpriteWalkthrough;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -420,10 +435,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SpriteWalkthrough/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sprite.SpriteWalkthrough;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -494,6 +512,7 @@
 				3D8F3D361D07385A00C5F962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D8F3D371D07385A00C5F962 /* Build configuration list for PBXNativeTarget "SpriteWalkthroughTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +521,7 @@
 				3D8F3D391D07385A00C5F962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D8F3D3A1D07385A00C5F962 /* Build configuration list for PBXNativeTarget "SpriteWalkthroughUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +530,7 @@
 				3D8F3D3C1D07385A00C5F962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
